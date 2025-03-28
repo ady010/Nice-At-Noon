@@ -35,7 +35,7 @@ export const Section5 = () => {
                 </div>
             </div>
             <div className="sym flex justify-end">
-            <img className='h-[9rem] animate-pulse' src="https://cdn.prod.website-files.com/6454cbf2dcc426c6ec47ef06/64bbbf416decd23360ebb88c_get-in-touch-badge.svg" loading="lazy" alt="" class="image"/>
+            <img className='h-[9rem] max-sm:h-[7rem] animate-pulse' src="https://cdn.prod.website-files.com/6454cbf2dcc426c6ec47ef06/64bbbf416decd23360ebb88c_get-in-touch-badge.svg" loading="lazy" alt="" class="image"/>
             </div>   
         </div>
     </div>

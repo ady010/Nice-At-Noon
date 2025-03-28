@@ -49,7 +49,7 @@ export const Section2 = () => {
         niet te negeren aantrekkingskracht. Raak en verbind jouw doelgroepen als
         nooit tevoren!
       </p>
-      <button className=" hover:rounded-[4rem]  transition-all duration-1000 bg-stone-100 rounded-2xl p-3 max-sm:p-2">Get to know us  <i class="ri-arrow-right-line"></i> </button>
+      <button className=" hover:rounded-[4rem]  transition-all duration-1000 bg-stone-100 rounded-2xl p-3 max-sm:p-2">Get to know us<i class="ri-arrow-right-line"></i> </button>
       </div>
     </div>
   );
