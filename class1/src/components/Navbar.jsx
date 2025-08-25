@@ -2,7 +2,7 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <div className=" px-20 h-20  flex justify-between items-center  ">
+    <div className="px-20 h-20 flex justify-between items-center max-lg:px-10 max-md:px-4 max-sm:px-2 max-sm:h-16">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="14vw"
@@ -79,22 +79,22 @@ export const Navbar = () => {
           d="M25.9397 51.6C12.0931 51.6 0.827148 40.2276 0.827148 26.25C0.827148 12.2724 12.0931 0.899994 25.9397 0.899994C39.7863 0.899994 51.0522 12.2724 51.0522 26.25C51.0522 40.2276 39.7863 51.6 25.9397 51.6ZM25.9397 2.35361C13.6629 2.34791 3.67327 13.0705 3.67327 26.25C3.67327 39.4295 13.6629 50.1464 25.9397 50.1464C38.2164 50.1464 48.2061 39.4238 48.2061 26.25C48.2061 13.0762 38.2164 2.34791 25.9397 2.34791V2.35361Z"
           fill="currentColor"
         ></path>
-      </svg>  
-      <div className="flex gap-2 sm:">
+      </svg>
+      <div className="flex gap-2 max-sm:gap-1">
         <a
-          className="border rounded-2xl px-5 py-3 max-sm:px-2 hover:bg-black hover:text-white"
+          className="border rounded-2xl px-5 py-3 max-sm:px-2 max-sm:py-2 text-base max-sm:text-xs hover:bg-black hover:text-white transition-all"
           href=""
         >
           Project
         </a>
         <a
-          className="border rounded-2xl px-3 py-3 max-sm:px-2 hover:bg-black hover:text-white"
+          className="border rounded-2xl px-3 py-3 max-sm:px-2 max-sm:py-2 text-base max-sm:text-xs hover:bg-black hover:text-white transition-all"
           href=""
         >
           About
         </a>
         <a
-          className="border rounded-2xl px-4 py-3 max-sm:px-2 hover:bg-black hover:text-white"
+          className="border rounded-2xl px-4 py-3 max-sm:px-2 max-sm:py-2 text-base max-sm:text-xs hover:bg-black hover:text-white transition-all"
           href=""
         >
           Contact
